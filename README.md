@@ -16,3 +16,5 @@ Run command
 If cannot change locales, run 
 
     dpkg-reconfigure locales
+
+Change locales to en_US.UTF-8
