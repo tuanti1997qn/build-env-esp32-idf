@@ -13,3 +13,6 @@ Run command
 
     sudo docker run --name=myesp32 --privileged -it -v /dev/bus/usb:/dev/bus/usb -v $(workspace_dir):/root --device=/dev/ttyUSB0:/dev/ttyUSB0 --device=/dev/ttyUSB1:/dev/ttyUSB1 --device=/dev/ttyUSB2:/dev/ttyUSB2 tuanti1997qn/my_env_build
 
+If cannot change locales, run 
+
+    dpkg-reconfigure locales
